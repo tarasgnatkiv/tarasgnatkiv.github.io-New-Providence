@@ -1,6 +1,14 @@
-// <!---------------- Start Developer 1 ---------------->
-
-// <!---------------- End Developer 1 ---------------->
+// <!---------------- Start Developer Pavlo ---------------->
+<script>
+  function openSlideMenu() {
+    document.getElementById('side-menu').style.width = '100%'
+  }
+    
+  function closeSlideMenu(){
+    document.getElementById('side-menu').style.width = '0'
+  }
+ </script>
+// <!---------------- End Developer Pavlo ---------------->
 
 
 
