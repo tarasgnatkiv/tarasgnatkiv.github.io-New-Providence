@@ -20,6 +20,7 @@
 
 // <!---------------- Start Developer 3 ---------------->
 $(document).ready(function () {
+
     $('.interfaceScreen').slick({
         arrows: false,
         slidesToShow: 5,
@@ -28,6 +29,7 @@ $(document).ready(function () {
         variableWidth: true,
         initialSlide: 2,
     });
+
 
     $('.custumersList').slick({
         slidesToShow: 3,
