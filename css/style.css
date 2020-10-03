@@ -356,10 +356,51 @@ body { font-family: 'Varela Round', sans-serif; }
 	display: flex;
 	justify-content:center;
     align-items: center; 
+    max-width: 0;
+    max-width: 1900px;
+    padding: 0 50px;
+}
+
+.interfaceScreen .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.interfaceScreen .slick-list {
+    overflow: hidden;
 }
 
 .screenItem {
     margin: 0 15px 0 15px;
+    height: 568px;
+    width: 320px;
+}
+
+.screenItem > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.screenItem.slick-center {
+    height: 753px; 
+    width: 369px;
+} 
+
+@media(max-width: 650px) {
+    .screenItem {
+        margin: 0 3px;
+        width: 220px;
+        height: 380px;
+    }
+
+    .screenItem.slick-center {
+        width: 240px;
+        height: 100%;
+    } 
+
+    .interfaceScreen {
+        padding: 0 3px;
+    }
 }
 
 .screenItem:last-child,
@@ -457,7 +498,7 @@ body { font-family: 'Varela Round', sans-serif; }
 
 .emailForm input[type='submit'] {
     background-color: #6fc754;
-    background-image: url('../img/png/emailArrow.png');
+    background-image: url('../img/taras-img/png/emailArrow.png');
     background-repeat: no-repeat;
     background-position: 127px 19px;
     border-radius: 21px;
@@ -514,7 +555,7 @@ body { font-family: 'Varela Round', sans-serif; }
     font-weight: 400;
     color: #ffffff;
     padding: 12px 41px 12px 69px;
-    background-image: url('../img/png/appleLink.png');
+    background-image: url('../img/taras-img/png/appleLink.png');
     background-repeat: no-repeat;
     background-position: 27px;
     margin: 22px 0 0 0;
