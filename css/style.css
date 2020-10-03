@@ -525,6 +525,140 @@ body { font-family: 'Varela Round', sans-serif; }
     display: block;
 }
 
+.customersReviews {
+    padding: 0 10px;
+}
+
+.custumersList {
+    max-width: 0;
+    position: relative;
+    max-width: 1300px;
+    padding: 0 70px;
+    margin: 132px auto 0;
+}
+
+.custumersList .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.custumersList .slick-list {
+    overflow: hidden;
+}
+
+.custumersList .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -20.5px 0 0 0;
+    z-index: 10;
+    font-size: 0;
+    width: 22px;
+    height: 41px;
+}
+
+.custumersList .slick-arrow.slick-prev {
+    left: 0;
+    background: url('../img/taras-img/sliderCustomers/arrowLeft.png') 0 0 / 100% no-repeat;
+}
+
+.custumersList .slick-arrow.slick-next {
+    right: 0;
+    background: url('../img/taras-img/sliderCustomers/arrowRight.png') 0 0 / 100% no-repeat;
+}
+
+.custumersItem {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin: 0 130px;
+    opacity: 0.2;
+}
+
+.custumersItem img {
+    max-width: 100%;
+}
+
+.custumersItem.slick-center {
+    height: 130px;
+    width: 130px;
+    opacity: 1;
+} 
+
+.custumersItem.slick-center > img{
+    height: 130px;
+    width: 130px;
+} 
+
+.reviewsList .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.reviewsList .slick-list {
+    overflow: hidden;
+}
+
+.reviewsList {
+    max-width: 555px;
+    margin: 75px auto 0;
+    text-align: center;
+}
+
+.reviewsItem {
+    opacity: 0;
+}
+
+.reviewsItem.slick-active {
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+.reviewsItem h3 {
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 300;
+    color: #26272d;
+}
+
+.reviewsItem p {
+    margin: 48px 0 0 0;
+    font-size: 20px;
+    color: #8c8f94;
+    font-family: 'Lato';
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.ratingStars {
+    margin: 0 8px 0 0;
+}
+
+.ratingStars:last-child {
+    margin: 0 0 0 0;
+}
+
+.reviewsItem h5 {
+    font-family: 'Lato';
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+    margin: 68px;
+}
+
+@media(max-width: 1000px) {
+    .custumersItem {
+        margin: 0 200px;
+    }
+
+}
+
 
 /* <!---------------- End Developer 3 ----------------> */
 
