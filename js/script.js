@@ -20,6 +20,15 @@
 
 // <!---------------- Start Developer 3 ---------------->
 $(document).ready(function () {
+    $('.interfaceScreen').slick({
+        arrows: false,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        variableWidth: true,
+        initialSlide: 2,
+    });
+
     $('.custumersList').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
