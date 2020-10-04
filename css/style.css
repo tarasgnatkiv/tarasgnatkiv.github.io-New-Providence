@@ -189,7 +189,7 @@ body { font-family: 'Varela Round', sans-serif; }
 
 
 .container-bg {
-  background: url(../img/Photo.jpg) center center/cover;
+  background: url(../img/ImgPavlo/Photo.jpg) center center/cover;
   width: 100%;
   height: 100vh;
   display: flex;
