@@ -1,6 +1,12 @@
-// <!---------------- Start Developer 1 ---------------->
-
-// <!---------------- End Developer 1 ---------------->
+// <!---------------- Start Developer Pavlo ---------------->
+  function openSlideMenu() {
+    document.getElementById('side-menu').style.width = '100%'
+  }
+    
+  function closeSlideMenu(){
+    document.getElementById('side-menu').style.width = '0'
+  }
+// <!---------------- End Developer Pavlo ---------------->
 
 
 
@@ -11,7 +17,35 @@
 
 
 // <!---------------- Start Developer 3 ---------------->
+$(document).ready(function () {
 
+    $('.interfaceScreen').slick({
+        arrows: false,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        variableWidth: true,
+        initialSlide: 2,
+    });
+
+
+    $('.custumersList').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        variableWidth: true,
+        initialSlide: 1,
+        asNavFor: ".reviewsList",
+    });
+
+    $('.reviewsList').slick({
+        initialSlide: 1,
+        arrows: false,
+        draggable: false,
+        swipe: false,
+        asNavFor: ".custumersList",
+    });
+});
 // <!---------------- End Developer 3 ---------------->
 
 
