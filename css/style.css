@@ -39,6 +39,18 @@ body { font-family: 'Varela Round', sans-serif; }
 
 
 /* <!---------------- Start Developer 4 ----------------> */
+
+.container-chooser {
+  display: flex;
+}
+
+.chooser-started {
+  border: ;
+}
+.chooser-active {
+  background-color: red;
+}
+
 .subscribe-container {
   min-height: 350px;
   display: flex;
