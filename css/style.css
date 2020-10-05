@@ -707,4 +707,69 @@ body { font-family: 'Varela Round', sans-serif; }
 
 /* <!---------------- Start Developer 4 ----------------> */
 
+.container-chooser {
+  display: flex;
+}
+
+.chooser-started {
+  border: ;
+}
+.chooser-active {
+  background-color: red;
+}
+
+.subscribe-container {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-our-newsletters {
+  text-align: center;
+}
+
+.subscribe-name {
+  font-family: "Varela Round";
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  max-width: 562px;
+  height: 50px;
+  margin: 50px 0px 28px 0px;
+  padding: 0 4px 0 0;
+}
+
+.subscribe-button {
+  font-family: "Lato", sans-serif;
+  border-radius: 21px;
+  background-color: #6fc754;
+  width: 134px;
+  height: 42px;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 3px;
+}
+
+.input-holder {
+  width: 100%;
+  margin: 0 10px 0 30px;
+}
+
+.subscribe-description {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8c8f94;
+}
+
 /* <!---------------- End Developer 4 ----------------> */
