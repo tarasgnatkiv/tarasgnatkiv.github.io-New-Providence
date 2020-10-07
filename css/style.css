@@ -352,7 +352,7 @@ body { font-family: 'Varela Round', sans-serif; }
   .about-time {
       max-width: 1120px;
       margin: 0 auto;
-      padding: 120px 10px 193px;
+      padding: 120px 10px 40px;
   }
   
   .about-time-all-content {
@@ -382,6 +382,15 @@ body { font-family: 'Varela Round', sans-serif; }
       margin: 38px 0 0 0;
   }
   
+  .line-about-time {
+    margin: 126px auto 0;
+    max-width: 1170px;
+    height: 1px;
+    opacity: 0.05;
+    background-color: #26272d;
+    border-radius: 0.5px;
+  }
+
   @media(max-width: 1160px) {
       .about-time-all-content {
           display: block;
