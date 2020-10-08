@@ -1053,6 +1053,117 @@ body { font-family: 'Varela Round', sans-serif; }
 
 /* <!---------------- Start Developer 4 ----------------> */
 
+/* aaaaaaaaaaaaa */
+.chooser-active.chooser-pro,  .chooser-active.chooser-started {
+    width: 340px;
+    height: 550px;
+    box-shadow: 10px 28px 50px rgba(92, 95, 101, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 159px;
+  }
+  .chooser-plan {
+      margin: 0 150px 0 0;
+  }
+  /* aaaaaaaaaaaaaaaaaaaa */
+  .chooser-name-start, .chooser-pro-name {
+      font-size: 32px;
+      font-weight: 300;
+      color: #26272d;
+      font-family: "Lato", sans-serif;
+  
+  }
+  
+  .chooser-free, .chooser-money {
+      font-family: "Lato", sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #26272d;
+      display: block;
+      border: 1px solid #d3d4d4;
+      border-radius: 14px;
+      padding: 9px 16px;
+      margin: 30px 0 0 0;
+  }
+  
+  .chooser-started-description, .chooser-pro-description {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #8c8f94;
+      margin: 56px 0 0 0;
+      text-align: center;
+      line-height: 28px;
+  }
+  
+  .chooser-started-description {
+      max-width: 180px;
+  }
+  
+  .chooser-pro-description {
+      max-width: 140px;
+  }
+  
+  .chooser-unlimited-description, 
+  .chooser-connect-description {
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: #26292c;
+  }
+  
+  .chooser-unlimited-description {
+      margin: 47px 0 0 0;
+  }
+  
+  .chooser-connect-description {
+      margin: 27px 0 0 0;
+  }
+  
+  .chooser-Assistant-description {
+      margin: 25px 0 0 0;
+  }
+  
+  .chooser-get {
+      background-color: #267df4;
+      border-radius: 21px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: #ffffff;
+      padding: 14px 66px;
+      margin: 80px 0 0 0;
+  }
+  
+  .chooser-get:hover {
+      background-color: #6fc754;
+  }
+  
+  .chooser-pro-button {
+      border: 1px solid #267df4;
+      border-radius: 21px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: #267df4;
+      padding: 14px 50px;
+      margin: 51px 0 0 0;
+  
+  }
+  
+  .chooser-pro-button:hover {
+      background-color: #6fc754;
+      color: #ffffff;
+      border: 1px solid #6fc754;
+  
+  }
+  
+  
+  
+  .chooser-started, .chooser-pro {
+      background-color: #ebebed;
+      border-radius: 10px;
+  }
+  
+
 .container-chooser {
   display: flex;
   justify-content: center;
