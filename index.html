@@ -363,75 +363,73 @@
     <!---------------- End Developer Taras ---------------->
 
     <!---------------- Start Developer Oleg ---------------->
- 
-      <div class="container-chooser">
-        <div class="chooser-plan">
-          <h2 class="chooser-name">Choose your perfect plan</h2>
-          <p class="chooser-yourself">You are</p>
-          <div class="buttons-choosers"><button class="chooser-individual">Individual</button>
-            <button class="chooser-company">Company</button>
-          </div>       
-          <p class="chooser-description">
-            Thus much I thought proper to tell you in relation to yourself, and
-            to the trust I reposed in you.
-          </p>
-          <p class="chooser-talk">
-            Have a bigger team? <a href="#">Let‘s talk</a>
-          </p>
+
+    <div class="container-chooser">
+      <div class="chooser-plan">
+        <h2 class="chooser-name">Choose your perfect plan</h2>
+        <p class="chooser-yourself">You are</p>
+        <div class="buttons-choosers">
+          <button class="chooser-individual">Individual</button>
+          <button class="chooser-company">Company</button>
         </div>
-        <div class="chooser-started" id="started">
-          <h2 class="chooser-name-start">Starter</h2>
-          <h3 class="chooser-free">Free</h3>
-          <p class="chooser-started-description">
-            Build your schedule every day
-          </p>
-          <p class="chooser-unlimited-description">
-            <img src="img/oleh-img/On_Icon.png" alt="ok" /> Unlimeted events
-          </p>
-          <p class="chooser-connect-description">
-            <img src="img/oleh-img/On_Icon.png" alt="ok" /> Connect Dropbox &
-            Evernote
-          </p>
-          <button class="chooser-get" onclick="clickHandler('starter')">
-            Get started
-          </button>
-        </div>
-        <div class="chooser-pro" id="pro">
-          <h2 class="chooser-pro-name">Pro</h2>
-          <p class="chooser-money">$4.99</p>
-          <p class="chooser-pro-description">Make your life better</p>
-          <p class="chooser-unlimited-description">
-            <img src="img/oleh-img/On_Icon.png" alt="ok" /> Unlimeted events
-          </p>
-          <p class="chooser-connect-description">
-            <img src="img/oleh-img/On_Icon.png" alt="ok" /> Connect Dropbox &
-            Evernote
-          </p>
-          <p class="chooser-Assistant-description">
-            <img src="img/oleh-img/On_Icon.png" alt="ok" /> Personal Assistant
-          </p>
-          <button class="chooser-pro-button" onclick="clickHandler('pro')">
-            Make me a Pro
-          </button>
-        </div>
+        <p class="chooser-description">
+          Thus much I thought proper to tell you in relation to yourself, and to
+          the trust I reposed in you.
+        </p>
+        <p class="chooser-talk">
+          Have a bigger team? <a href="#">Let‘s talk</a>
+        </p>
       </div>
-    
+      <div class="chooser-started" id="started">
+        <h2 class="chooser-name-start">Starter</h2>
+        <h3 class="chooser-free">Free</h3>
+        <p class="chooser-started-description">Build your schedule every day</p>
+        <p class="chooser-unlimited-description">
+          <img src="img/oleh-img/On_Icon.png" alt="ok" /> Unlimeted events
+        </p>
+        <p class="chooser-connect-description">
+          <img src="img/oleh-img/On_Icon.png" alt="ok" /> Connect Dropbox &
+          Evernote
+        </p>
+        <button class="chooser-get" onclick="clickHandler('starter')">
+          Get started
+        </button>
+      </div>
+      <div class="chooser-pro" id="pro">
+        <h2 class="chooser-pro-name">Pro</h2>
+        <p class="chooser-money">$4.99</p>
+        <p class="chooser-pro-description">Make your life better</p>
+        <p class="chooser-unlimited-description">
+          <img src="img/oleh-img/On_Icon.png" alt="ok" /> Unlimeted events
+        </p>
+        <p class="chooser-connect-description">
+          <img src="img/oleh-img/On_Icon.png" alt="ok" /> Connect Dropbox &
+          Evernote
+        </p>
+        <p class="chooser-Assistant-description">
+          <img src="img/oleh-img/On_Icon.png" alt="ok" /> Personal Assistant
+        </p>
+        <button class="chooser-pro-button" onclick="clickHandler('pro')">
+          Make me a Pro
+        </button>
+      </div>
+    </div>
+
     <footer>
       <div class="subscribe-container">
-        <div class="subscribe-our-newsletters">
-          <h2 class="subscribe-name">Subscribe our newsletters</h2>
-          <div class="input-container">
-            <label class="input-email" for="email"></label>
+        <div class="download-1" id="download-1">
+          <h2>Subscribe our newsletters</h2>
+          <form class="emailForm-1" action="#download">
             <input
-              class="input-holder"
-              type="email"
-              id="email"
+              class="emailInput-1"
               name="email"
-              placeholder="your e-mail"
+              type="email"
+              placeholder="Your e-mail"
+              required
             />
-            <button class="subscribe-button">Subscribe</button>
-          </div>
-          <p class="subscribe-description">We promise to never spam you.</p>
+            <input type="submit" value="Subscribe" />
+          </form>
+          <p class="downloadFrom-1">We promise to never spam you.</p>
         </div>
       </div>
       <div class="footer-about">
@@ -449,8 +447,8 @@
                 alt="apple"
             /></a>
             <div class="icons-block">
-              <a href="https://twitter.com" target="_blank"
-                > <img
+              <a href="https://twitter.com" target="_blank">
+                <img
                   class="social-img"
                   src="./img/oleh-img/Twitter_Icon.png"
                   alt="twitter"
@@ -489,31 +487,57 @@
           </div>
           <div class="learn-more">
             <h2 class="Learn-more-name">Learn More</h2>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">How it works?</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Meeting tools</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Live striming</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Contact method</p></a>
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">How it works?</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Meeting tools</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Live striming</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Contact method</p></a
+            >
           </div>
           <div class="learn-more">
-           <h2 class="Learn-more-name">About Us</h2>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">About us</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Features</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Privacy police</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Terms & Conditions</p></a>
+            <h2 class="Learn-more-name">About Us</h2>
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">About us</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Features</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Privacy police</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Terms & Conditions</p></a
+            >
           </div>
           <div class="learn-more">
             <h2 class="Learn-more-name">Support</h2>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">F.A.Q.</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Contact us</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Live chat</p></a>
-            <a href="https://www.google.com.ua/" target="_blank"><p class="Learn-more-descrittion">Phone call</p></a>
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">F.A.Q.</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Contact us</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Live chat</p></a
+            >
+            <a href="https://www.google.com.ua/" target="_blank"
+              ><p class="Learn-more-descrittion">Phone call</p></a
+            >
           </div>
         </div>
         <div class="Divdier"></div>
         <div class="footer-links">
           <p class="footer-visit">
             For more freebies visit:
-            <a href="http://getcraftwork.com" target="_blank"> http://getcraftwork.com</a>
+            <a href="http://getcraftwork.com" target="_blank">
+              http://getcraftwork.com</a
+            >
           </p>
           <h3 class="footer-made">
             Made with Love by <img src="./img/oleh-img/Logo.png" alt="logo" />
